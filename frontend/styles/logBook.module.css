@@ -1,0 +1,92 @@
+.table thead>tr>th {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #565555 !important;
+    max-width: 100%;
+    font-family: 'Unilever Shilling';
+    font-style: normal;
+  }
+  
+  .table td {
+    border: 1px solid #565555 !important;
+    text-align: center;
+    font-family: 'Unilever Shilling';
+    font-style: normal;
+    border-collapse: collapse;
+  }
+  
+  .table tbody>tr:hover>td {
+    background-color: unset !important;
+    color: unset !important;
+  }
+  
+  .table thead>tr>th:hover {
+    background-color: unset !important;
+    color: unset !important;
+  }
+  
+  .table {
+    border-collapse: collapse !important;
+    table-layout: fixed !important; 
+  }
+  
+  .table table {
+    border-collapse: collapse !important;
+  }
+  /* ant-table-body */
+  .sortIcon {
+    height: 15px;
+    width: 17.5px;
+    left: 139.25px;
+    top: 5.5px;
+    border-radius: 0px;
+    margin-left: 40px;
+    padding-left: 40px;
+  }
+  
+  .tableTitle {
+    height: 22px;
+    left: 0%;
+    right: -85.38%;
+    font-family: 'Unilever Shilling';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    letter-spacing: -0.342857px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+  }
+  
+  .table_wrapper {
+    border-radius: 0.313rem;
+    min-height: 5.625rem;
+    margin-top: 2em;
+    align-items: center;
+  }
+
+  .nested_table{
+    font-family: 'Unilever Shilling';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.342857px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    margin-bottom: "1.5rem"
+  }
+  
+  .logbookTableTitle {
+    height: 22px;
+    font-family: "Unilever Shilling";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    letter-spacing: -0.342857px;
+    color: #ffffff;
+    padding-top: 15px;
+  }

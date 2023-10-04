@@ -1,0 +1,62 @@
+[
+    {
+      "key": "1",
+      "title": "S.No",
+      "dataIndex": "serialNumber",
+      "width": 5
+    },
+    {
+      "key": "2",
+      "title": "Category",
+      "dataIndex": "category"
+    },
+    {
+      "key": "3",
+      "title": "Action",
+      "dataIndex": "action",
+      "width": 250
+    },
+    {
+      "key": "4",
+      "title": " Current OSA %",
+      "dataIndex": "currentOSAPercentage",
+      "width": 150
+    },
+    {
+      "key": "5",
+      "title": "Target OSA % ",
+      "dataIndex": "targetOSAPercentage",
+      "width": 150
+    },
+    {
+      "key": "6",
+      "title": "Sales Uplift No.",
+      "dataIndex": "salesUpliftNumber"
+    },
+    {
+      "key": "7",
+      "title": "Full OSA %",
+      "dataIndex": "fullOSAPercentage"
+    },
+    {
+      "key": "8",
+      "title": "Action Created On",
+      "dataIndex": "actionCreatedOn"
+    },
+    {
+      "key": "9",
+      "title": "Reason For Non Compliance",
+      "dataIndex": "reasonForNonCompliance"
+    },
+    {
+      "key": "10",
+      "title": "Field Rep",
+      "dataIndex": "fieldRep"
+    },
+    {
+        "key": "11",
+        "title": "Status",
+        "dataIndex": "status"
+      }
+  ]
+  

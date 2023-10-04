@@ -1,0 +1,28 @@
+[
+    {
+      "key": "1",
+      "title": "Sales Rep",
+      "dataIndex": "SalesRepFirstName"
+    },
+    {
+      "key": "2",
+      "title": "Region",
+      "dataIndex": "RegionName"
+    },
+    {
+      "key": "3",
+      "title": "Last OSA",
+      "dataIndex": "lastCS"
+    },
+    {
+      "key": "4",
+      "title": "Achieved OSA",
+      "dataIndex": "OSAPercentage"
+    },
+    {
+      "key": "5",
+      "title": "Change in OSA",
+      "dataIndex": "changeInCS"
+    }
+    
+]

@@ -1,0 +1,42 @@
+[
+
+    {
+        "key": "1",
+        "title": "SKU EAN",
+        "dataIndex": "ean",
+        "width": "8%",
+        "editable": true
+    },
+    {
+        "key": "2",
+        "title": "SKU Description",
+        "dataIndex": "desc",
+        "width": "22%"
+
+    },
+    {
+        "key": "3",
+        "title": "Availability",
+        "dataIndex": "avaiabilityStatus",
+        "width": "11%"
+    },
+    {
+        "key": "4",
+        "title": "Root Cause",
+        "dataIndex": "rootCause",
+        "width": "20%"
+    },
+    {
+        "key": "5",
+        "title": "User Comments",
+        "dataIndex": "comment",
+        "width": "29%"
+
+    },
+    {
+        "key": "6",
+        "title": "Image",
+        "dataIndex": "image",
+        "width": "10%"
+    }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "key": "1",
+    "title": "S.No",
+    "dataIndex": "serialNumber",
+    "width": 5
+  },
+  {
+    "key": "2",
+    "title": "Store Name",
+    "dataIndex": "storeName"
+  },
+  {
+    "key": "3",
+    "title": "Category",
+    "dataIndex": "category"
+  },
+  {
+    "key": "4",
+    "title": "Action Performed",
+    "dataIndex": "actionPerformed",
+    "width": 250
+  },
+  {
+    "key": "5",
+    "title": "Current OSA % (for week) (#52)",
+    "dataIndex": "currentOSAPercentage",
+    "width": 150
+  },
+  {
+    "key": "6",
+    "title": "Previous week OSA % (#51)",
+    "dataIndex": "previousWeekOSAPercentage",
+    "width": 150
+  },
+  {
+    "key": "7",
+    "title": "Sales Uplift No.",
+    "dataIndex": "salesUpliftNumber"
+  },
+  {
+    "key": "8",
+    "title": "Action Created On",
+    "dataIndex": "actionCreatedOn"
+  },
+  {
+    "key": "9",
+    "title": "Action Completed On",
+    "dataIndex": "actionCompletedOn"
+  },
+  {
+    "key": "10",
+    "title": "Completed By",
+    "dataIndex": "completedBy"
+  },
+  {
+    "key": "11",
+    "title": "Assigned To",
+    "dataIndex": "assignedTo"
+  }
+]

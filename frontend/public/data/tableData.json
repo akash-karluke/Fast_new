@@ -1,0 +1,125 @@
+{
+   "data": [
+      {
+         "storeName": "Dmart",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Reliance",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "More",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "nilgiri's",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "C&C",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Kava",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Kavi",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Lasa",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Walmart",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Super Market",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Lasa",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Walmart",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      },
+      {
+         "storeName": "Super Market",
+         "storeCode": "RS09X8765",
+         "coreOsa": 450,
+         "fullOsa": 340,
+         "npdOsa": 354,
+         "location": "Sidney No. 1 Lake Park",
+         "salesUpliftNumber": 225
+      }
+   ],
+   "totalRecords": 13,
+  "currentPage": 1,
+  "recordsPerPage": 10,
+  "totalPages": 2
+}

@@ -1,0 +1,348 @@
+@font-face {
+  font-family: unilever shilling;
+  src: url(../assets/font/UnileverShilling.ttf) format("truetype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Unilever Shilling";
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.ant-spin-dot-item {
+  background-color: red;
+}
+
+.header {
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #1e1e1e;
+}
+
+.header_logo {
+  min-width: 10vw;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  min-width: 67vw;
+}
+
+.nav_item {
+  color: #ffffff;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.active {
+  align-items: center;
+  background: #000000;
+  mix-blend-mode: normal;
+  border-bottom: 2px solid #ffffff;
+  font-weight: 600;
+  /* opacity: 0.14; */
+}
+
+.user_section {
+  min-width: 3vw;
+}
+.badge {
+  position: absolute;
+  height: 9.6px;
+  width: 16px;
+  top: -2px;
+  left: 7px;
+  right: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #ff0000;
+  border-radius: 40px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 6.4px;
+  line-height: 7px;
+  text-align: center;
+}
+.bell_icon_image {
+  position: relative;
+}
+
+.user_details {
+  min-width: 12vw;
+}
+
+.bell_icon {
+  min-width: 3vw;
+  position: relative;
+}
+
+.comment_icon {
+  min-width: 4vw;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white !important;
+    background: black !important;
+  }
+}
+
+.user {
+  position: absolute;
+  height: 14px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: -0.214286px;
+
+  color: #ffffff;
+}
+
+.smily_Icon {
+  position: absolute;
+  background: #000000;
+}
+
+.avatar {
+  height: 47px;
+  width: 47px;
+  border-radius: 6px;
+}
+
+.logo_img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  filter: opacity(0.4) drop-shadow(0 0 0 #ffffff);
+}
+.page {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 4em;
+}
+
+td.ant-table-column-sort {
+  background: #242424;
+}
+.ant-table-thead th.ant-table-column-sort {
+  background: #242424 !important;
+}
+.ant-table-thead {
+  background: #333333;
+  color: white;
+}
+.ant-table-column-sorter {
+  display: none;
+}
+
+.ant-pagination-item-active {
+  background: #2251ff;
+  color: #ffffff;
+}
+.antTable {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  color: #ffffff;
+  background: #242424;
+  border-radius: 2px;
+  border-collapse: collapse !important;
+}
+.ant-select-selection-overflow,
+.ant-select-selector {
+  border: none !important;
+}
+
+.select_dropdown,
+.select_dropdown > div,
+.ant-select-item-option-selected,
+.ant-select-item-option,
+.ant-select-item-option-selected:hover,
+.ant-select-item-option:hover,
+.ant-select-item {
+  background-color: #221f1f !important;
+  color: white !important;
+}
+.select_dropdown:focus {
+  color: white;
+  outline: none;
+}
+.ant-select-selector,
+.ant-select-selection-overflow,
+.ant-select-dropdown {
+  caret-color: white !important;
+  background-color: #221f1f !important;
+  color: white;
+}
+.edgieAllStarsTable {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  color: #ffffff;
+  background: #242424;
+  border-radius: 2px;
+  border-collapse: collapse !important;
+}
+.recharts-legend-item:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.recharts-legend-item-text {
+  color: #e6e5e5 !important;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.342857px;
+}
+
+.sku_fix_modal {
+  border: 0.1px solid black;
+}
+.sku_fix_modal,
+.sku_fix_modal > .ant-modal-content {
+  background-color: #221f1f !important;
+  color: white;
+}
+.sku_fix_modal > .ant-modal-content > .ant-modal-close {
+  color: black !important;
+}
+.sku_fix_modal > .ant-modal-content > .ant-modal-header,
+.sku_fix_modal > .ant-modal-content > .ant-modal-header > .ant-modal-title {
+  background-color: #221f1f !important;
+  color: white;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 0.75rem 1px;
+}
+.skufix_select {
+  max-width: 16vw;
+}
+.skufix_select.ant-select-open {
+  /* max-width: 25vw; */
+  min-width: 25vw;
+}
+.skufix_select > .ant-select-arrow,
+.skufix_select > .ant-select-selector > .ant-select-selection-item {
+  color: white;
+}
+
+.sku_switch * {
+  background-color: black;
+}
+.sku_switch.ant-switch {
+  background: black !important;
+}
+.availiablilty_switch *{
+  color: red;
+}
+
+.availiablilty_switch_active *{
+  color: green;
+}
+.skufix_select_disabled {
+  opacity: 0.5 !important;
+  cursor: pointer;
+}
+.ant-upload-span, .anticon-delete {
+  color: white;
+}
+.dark_theme_textarea, .ant-input-disabled, .ant-input[disabled] {
+  background: #221f1f;
+  color: white;
+}
+.ant-upload-select-picture-card, .ant-upload-disabled {
+  background: #221f1f !important;
+  color: white !important;
+  border: none !important;
+}
+.ant-upload-disabled {
+  opacity: 0.5;
+}
+.ant-upload, .ant-upload-disabled, .ant-input-disabled, .ant-input[disabled], .ant-input[disabled]:hover  {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* .tbody{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 200px;
+  margin: 1px 5px;
+  background-color: #221f1f;
+  padding: 5px;
+  text-align: justify;
+}
+.tableScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 200px;
+  margin: 1px 5px;
+  background-color: #221f1f;
+  padding: 5px;
+  text-align: justify;
+}
+.ant-table-body::-webkit-scrollbar {
+  width: 5px;
+}
+.ant-table-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #979797;
+  border-radius: 5px;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px white;
+} */
+.ant-dropdown-menu {
+  max-height: 250px;
+  overflow: auto;
+}
+.ant-upload-disabled {
+  display: none;
+}
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background: black;
+}
+.dark_body_table {
+  background: black;
+  color: white
+}

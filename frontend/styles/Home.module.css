@@ -1,0 +1,612 @@
+.overview_label {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.overview_detail {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.special_border {
+  border-right: 1.5px dotted #213d97;
+  background: linear-gradient(#213d97 0 0) padding-box,
+    linear-gradient(to top, #213d97, white 54%, #213d97) border-box;
+}
+
+.special_black_border {
+  border-right: 1.5px dotted black;
+  background: linear-gradient(to top, black, white 47%, black) border-box;
+  margin-top: 7px;
+  height: 92px;
+  background-color: black;
+}
+.dotted_border {
+  border-right: 2px dotted white;
+  padding-left: 2px;
+}
+
+.filter_width {
+  width: 10rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem !important;
+  padding: 0.25rem 1rem !important;
+}
+.filter_width > span {
+  overflow: hidden;
+}
+
+.filter_wrapper {
+  background-color: #1e1e1e;
+  border-radius: 0.313rem;
+  min-height: 5.625rem;
+  margin-top: 2em;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.filter_label {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.kpi_padding {
+  height: 91px;
+  align-items: center;
+  display: flex;
+}
+
+.filter_active_dropdown {
+  background-color: #2251ff !important;
+  border-color: #2251ff !important;
+  border-radius: 5px;
+  color: white !important;
+  height: 46px;
+}
+
+.filter_dropdown,
+.filter_dropdown:hover {
+  /* background-color: rgba(235, 235, 235, 1) !important; */
+  background-color: #1e1e1d !important;
+  border-color: #ebebeb !important;
+  border-radius: 5px;
+  color: white !important;
+  height: 46px;
+  /* opacity: 0.4; */
+}
+
+.filter_active_dropdown > span,
+.filter_dropdown > span {
+  font-size: 14px !important;
+  max-width: 10rem;
+  padding: 0.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.filter_dropdown_plate > ul,
+.filter_dropdown_plate > ul :hover {
+  background: linear-gradient(0deg, #0b0b0b, #0b0b0b), #292929 !important;
+}
+
+.filter_dropdown_plate > ul > li > span > label > span {
+  color: white !important;
+}
+
+.filter_dropdown_plate > ul > li > span > label > span > span::after {
+  background-color: white !important;
+  color: white !important;
+  border: 1.5px solid black !important;
+}
+
+.filter_dropdown_plate > ul > li > span > label > span > span {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+.time_width {
+  width: 250px;
+  color: white;
+}
+
+/* kpi css */
+.kpi_wrapper {
+  margin-top: 2rem;
+  min-height: 15rem;
+}
+
+.bg1E1E1E {
+  background: #1e1e1e;
+}
+
+.centerInCol {
+  text-align: center;
+}
+
+.kpi_card_row {
+  height: 7rem;
+}
+
+.kpi_value {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.middle_in_col {
+  align-items: center;
+}
+
+.last_visit_sales {
+  background: linear-gradient(0deg, #ff7e00, #ff7e00), #0d72f7;
+  min-height: 6rem;
+}
+
+.last_five_visit_sales {
+  background: #a2173a;
+}
+
+.px14 {
+  font-size: 12px !important;
+}
+
+.bg000000 {
+  background-color: #000000;
+}
+
+.dotted_border {
+  border-right: 0.1px dotted white;
+}
+
+.aggregated_kpi {
+  background: linear-gradient(
+      90deg,
+      #213d97 0.88%,
+      #213d97 98.09%
+    ),
+    #ff7e00;
+  font-size: 1.25rem;
+}
+
+.font_40_weight_900 {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.osaTable thead > tr > th {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #565555 !important;
+  height: 60px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  line-height: 19px;
+}
+
+.osaTable td {
+  border: 1px solid #565555 !important;
+  text-align: center;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  border-collapse: collapse;
+}
+
+.saleUpliftRectangle {
+  height: 24px;
+  width: 24px;
+  left: 1242px;
+  top: 24px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.saleUpliftArrow {
+  height: 5.699999809265137px;
+  width: 10px;
+  left: 1249px;
+  top: 33.300048828125px;
+}
+
+.antTable {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  height: 70px;
+  color: #ffffff;
+  background: #242424;
+  border-radius: 2px;
+  border-collapse: collapse !important;
+}
+
+.osaTable tbody > tr:hover > td {
+  background-color: unset !important;
+  color: unset !important;
+}
+
+.osaTable thead > tr > th:hover {
+  background-color: unset !important;
+  color: unset !important;
+}
+
+.osaTable {
+  border-collapse: collapse !important;
+}
+
+.osaTable table {
+  border-collapse: collapse !important;
+}
+
+.sortIcon {
+  height: 15px;
+  width: 17.5px;
+  left: 139.25px;
+  top: 5.5px;
+  border-radius: 0px;
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+.osaTableTitle {
+  height: 22px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  letter-spacing: -0.342857px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.osaTable_wrapper {
+  border-radius: 0.313rem;
+  min-height: 5.625rem;
+  margin-top: 2em;
+  align-items: center;
+}
+/* executive summary css */
+.card {
+  background-color: #1e1e1e;
+  border: none;
+  color: white;
+}
+.executive_summary_label {
+  padding: 0px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* Compliance to all KPI's and Top ten retailers css */
+.compliance_all_kpi_card {
+  height: 331px;
+  width: 635px;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  border: none;
+  color: white;
+}
+.compliance_all_kpi_title {
+  height: 22px;
+  width: 256px;
+  font-family: "Unilever Shilling";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.34285715222358704px;
+  text-align: left;
+}
+.topTenRetailersTitle {
+  height: 22px;
+  width: 135px;
+  width: 135px;
+  height: 22px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.342857px;
+}
+.coreOsa {
+  height: 190px;
+  width: 93px;
+  left: 0px;
+  top: 45px;
+  border-radius: 5px;
+}
+.coreOsaComplianceTitle,
+.osaValueLabel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 30px;
+}
+
+.coreOsaPercentage {
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.complianceText {
+  font-weight: 900;
+  font-size: 14px;
+  color: #07d34e;
+}
+
+.scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 200px;
+  width: 450px;
+  margin: 10px 5px;
+  padding: 5px;
+  text-align: justify;
+}
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #979797;
+  border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px white;
+}
+.filter_dropdown_plate::-webkit-scrollbar {
+  width: 5px !important;
+}
+.filter_dropdown_plate::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #979797 !important;
+  border-radius: 5px !important;
+}
+.filter_dropdown_plate::-webkit-scrollbar-thumb {
+  border-radius: 5px !important;
+  -webkit-box-shadow: inset 0 0 6px white !important;
+}
+
+.headerStyle {
+  width: 450px;
+  height: 46px;
+  background: #1a1919;
+  mix-blend-mode: normal;
+  border-radius: 5px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: -0.3px;
+
+  color: #ffffff;
+}
+.retailersList {
+  height: 46px;
+  width: 450px;
+  height: 46px;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+.compliance_dotted_border {
+  border-right: 1px dotted white;
+  background-image: linear-gradient(
+    #c8c8c8 0.01% #bcbcbc 100% #a4a4a4 100% #979797 0.01%
+  );
+  padding-left: 2px;
+  height: 289px;
+}
+.full_osa {
+  padding-left: 2px;
+  height: 289px;
+}
+.coreOsaBarChart {
+  height: 250px;
+  width: 50px;
+  border-radius: 5px;
+}
+.retailersText {
+  font-family: "Unilever Shilling";
+  font-style: normal;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #ffffff !important;
+}
+/* Compliance to all KPI's and Top ten retailers css ends here */
+
+/* drawer css  */
+
+.store_location_row {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.drawer_label {
+  color: #717171;
+  font-size: 12px;
+}
+.menu_component > li {
+  margin-top: -6px;
+}
+.menu_component > li > div {
+  height: 22px !important;
+  font-size: 18px;
+  color: white;
+}
+
+.menu_component > li > ul {
+  background-color: #221f1f !important;
+}
+
+.menu_component > li > ul > li {
+  height: 30px !important;
+}
+.assignedTo_menu_component > li > div {
+  font-size: 12px !important;
+  height: 30px !important;
+}
+.drawer_mark,
+.drawer_mark:hover {
+  background-color: #222222;
+  border: none;
+  color: white;
+}
+.root_cause {
+  color: white;
+}
+.expnaded_growth_column,
+.expnaded_growth_column > td,
+.expnaded_growth_column > td:hover {
+  background-color: #222222 !important;
+  border: none;
+  color: white;
+}
+.filter_container {
+  margin-left: 0px !important;
+  margin-right: 12px !important;
+  row-gap: 19px !important;
+}
+.tableScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 301px;
+  margin: 1px 5px;
+  background-color: #221f1f;
+  padding: 5px;
+  text-align: justify;
+}
+.tableScroll::-webkit-scrollbar {
+  width: 5px;
+}
+.tableScroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #979797;
+  border-radius: 5px;
+}
+.tableScroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px white;
+}
+
+.textBoxDiv {
+  height: 320px;
+  width: 744px;
+  background: #0f0f0f;
+  mix-blend-mode: normal;
+  opacity: 0.32;
+}
+.textBox {
+  height: 233px;
+  border-radius: 5px;
+  border-color: #b4d307;
+  background-color: #0f0f0f;
+}
+.textBox input {
+  background-color: #0f0f0f;
+  color: #ebebeb;
+}
+.group {
+  align-self: flex-end;
+
+  /* background-color: #2251ff; */
+  background-color: #121212 !important;
+  color: white !important;
+  border: 0.2px solid white !important;
+  margin: 1%;
+  float: right;
+}
+
+ .salesUplift{
+  display:flex;
+  align-items: stretch;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  
+ }
+ .salesUpliftContent{
+  position:absolute; 
+ }
+.group_active {
+  align-self: flex-end;
+  background-color: #121212 !important;
+  color: white !important;
+  border: 0.2px solid white !important;
+  border: none;
+  margin: 1%;
+  float: right;
+}
+
+
+ .salesUplift{
+  display:flex;
+  align-items: stretch;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  
+ }
+ .salesUpliftContent{
+  position:absolute; 
+ }
+ .salesUpliftButton{
+  position:absolute; 
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+ }
+ .column_option_checkbox *, .column_option_checkbox > label > span{
+  color: white;
+ }
+ .ant-table-selection-col {
+  width: 30px !important;
+ }
+
+
+ .filterScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 12.5rem;
+  padding: 5px;
+  text-align: justify;
+}
+.filterScroll::-webkit-scrollbar {
+  width: 5px;
+}
+.filterScroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #979797;
+  border-radius: 5px;
+}
+.filterScroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px white;
+}
+.arrow{
+  font-size: 14px !important;
+  max-width: 50rem;
+  padding: 0.3rem;
+  overflow: hidden;
+
+
+}

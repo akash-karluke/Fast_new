@@ -1,0 +1,26 @@
+[
+    {
+      "key": "1",
+      "title": "S.No.",
+      "dataIndex": "serialNumber",
+      "width": "5%"
+    },
+    {
+      "key": "2",
+      "title": "Core SKUs EAN",
+      "dataIndex": "coreSKUsEAN",
+      "width": "10%"
+    },
+    {
+      "key": "3",
+      "title": " Core SKUs Description",
+      "dataIndex": "coreSkUsDescription",
+      "width": "15%"
+    },
+    {
+      "key": "4",
+      "title": "Status",
+      "dataIndex": "status",
+      "width": "10%"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "topRetailers":[
+       {
+          "retailerName":"Retailer 1",
+          "osaPercentage":"100%"
+       },
+       {
+          "retailerName":"Retailer 2",
+          "osaPercentage":"100%"
+       },
+       {
+          "retailerName":"Retailer 3",
+          "osaPercentage":"95%"
+       },
+       {
+          "retailerName":"Retailer 4",
+          "osaPercentage":"96%"
+       },
+       {
+          "retailerName":"Retailer 5",
+          "osaPercentage":"97%"
+       },
+       {
+          "retailerName":"Retailer 6",
+          "osaPercentage":"97%"
+       },
+       {
+          "retailerName":"Retailer 7",
+          "osaPercentage":"97%"
+       },
+       {
+          "retailerName":"Retailer 8",
+          "osaPercentage":"96%"
+       }
+    ]
+ }
